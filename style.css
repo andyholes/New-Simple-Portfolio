@@ -3,26 +3,44 @@
     margin: 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
+html{
+    scroll-behavior: smooth;
+    animation: fadeInAnimation ease 1s;
+}
+
+body::-webkit-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(0px,3em);
+    }
+    100% {
+        opacity: 1
+        transform: translate(0px,0px)
+     }
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    margin-left: 0%;
+    margin-left: 15%;
+    margin-right: 35%;
 }
 
-header{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:a;
-}
-
-.container{
+section{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+section h3{
+    padding-bottom: 5%;
 }
 
 img{
@@ -35,23 +53,14 @@ img{
 
 nav{
     position: fixed;
-    overflow: auto;
-    right: 0;
-    height: 100%;
-    width: 20%;
-    display: flex;
-    align-items: center;
+    right: 15%;
+    top: 20em;
     background: transparent;
-}
-
-nav ul{
-    display: flex;
-    flex-direction: column;
 }
 
 nav ul li {
     padding: 0.2em;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: right;
 }
 
@@ -64,16 +73,73 @@ h2{
     font-weight: lighter;
 }
 
+h3{
+    font-size: 3vw;
+}
+
+h4{
+    font-size: 2.5vw;
+}
+
+p{
+    font-size: 1.5vw;
+    word-break:normal;
+    white-space: normal;
+    margin-bottom: 3%;
+}
+
 li{
     list-style: none;
 }
 
 a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .2s ease;
 }
 
 a:hover{
-    transition-delay: 2ms;
-    color: peachpuff;
+    color: #B49C68;
+}
+
+section li{
+    font-size: 2vw;
+}
+
+section li a{
+        font-size: 5vw;
+}
+
+footer{
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.card{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.card img{
+    height: 3vw;
+    width: fit-content;
+    overflow: hidden;
+    object-fit:fill;
+}
+
+.card h4 {
+    font-size: 2vw;
+}
+
+.card p{
+    font-size: 1vw;
+    font-weight: 600;
 }
