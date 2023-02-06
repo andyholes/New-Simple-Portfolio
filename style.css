@@ -206,13 +206,12 @@ footer{
         }
 
         nav{
-            top: 1em;
             right: 5%;
-            align-items: flex-start;
+            top: 70%;
         }
 
         nav ul li {
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
         h1{
@@ -250,9 +249,8 @@ footer{
 
         .card img{
             height: 2em;
-            width: fit-content;
             overflow: hidden;
-            object-fit:fill;
+            object-fit:none;
         }
 
         .card p{
