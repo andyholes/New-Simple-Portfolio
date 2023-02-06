@@ -290,11 +290,10 @@ footer{
     
 
         .card img{
-            width: 8vw;
+            width: 60%;
             overflow:hidden;
-            object-fit:scale-down;
+            object-fit:contain;
             justify-content: baseline;
-            margin: 1px;
         }
 
         .card p{
