@@ -149,6 +149,10 @@ footer{
 
 @media screen and (max-width: 1300px) {
     
+    .picture{
+        height: 40vw;
+    }
+
     nav ul li {
         font-size: 2em;
     }
@@ -193,10 +197,12 @@ footer{
     @media screen and (max-width: 950px) {
     
         .content{
-            display: flex;
-            flex-direction: column;
             margin-left: 15%;
             margin-right: 15%;
+        }
+
+        .picture{
+            height: 50vw;
         }
 
         nav{
@@ -208,13 +214,13 @@ footer{
         nav ul li {
             font-size: 1em;
         }
-    
+
         h1{
-            font-size: 2em;
+            font-size: 7vw;
         }
         
         h2{
-            font-size: 1.5em;
+            font-size: 5vw;
             font-weight: lighter;
         }
         
