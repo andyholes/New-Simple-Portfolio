@@ -154,7 +154,7 @@ section li a{
 }
 
 footer{
-    max-resolution: -50px 0 0 0;
+    text-align: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -223,7 +223,9 @@ footer{
             flex-direction: column;
             justify-content:start;
             align-items:baseline;
-            padding: 1em 1em;
+            padding-left: 1em;
+            padding-top: 3em;
+            margin-top: 2em;
         }
 
         #home{
@@ -290,7 +292,7 @@ footer{
         .card img{
             height: 8vw;
             overflow:hidden;
-            object-fit:contain;
+            object-fit:scale-down;
             margin: 1px;
         }
 
