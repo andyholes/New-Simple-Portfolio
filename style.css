@@ -182,10 +182,16 @@ footer{
 
     section li{
         font-size: 2em;
+        margin: 0.5em;
     }
     
     section li a{
             font-size: 2em;
+    }
+
+    .card{
+        margin: 2vw;
+        min-width: 40vw;
     }
 
     .card p{
@@ -259,7 +265,14 @@ footer{
         
         section li a{
                 font-size: 2em;
+                margin: 0.7em;
         }
+
+        .card{
+            margin: 3vw;
+            min-width: 30vw;
+        }
+    
 
         .card img{
             height: 8vw;
