@@ -5,9 +5,7 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-y: scroll;
     scrollbar-width: none;
-    scroll-snap-type: y mandatory;
     animation: fadeInAnimation ease 1s;
 }
 
@@ -39,8 +37,6 @@ body {
 }
 
 section{
-
-    scroll-snap-align: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -212,13 +208,17 @@ footer{
 
     @media screen and (max-width: 950px) {
     
+        nav{
+            font-size: 0;
+        }
+
         .content{
             margin-left: 5%;
             margin-right: 10%;
         }
 
         section{
-            height: 100vh;
+            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content:start;
@@ -280,7 +280,7 @@ footer{
         section li a{
                 font-size: 2em;
                 margin: 0.7em;
-        }
+            }
 
         .card{
             margin: 3vw;
@@ -290,9 +290,10 @@ footer{
     
 
         .card img{
-            height: 8vw;
+            width: 8vw;
             overflow:hidden;
             object-fit:scale-down;
+            justify-content: baseline;
             margin: 1px;
         }
 
