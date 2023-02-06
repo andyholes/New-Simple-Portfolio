@@ -278,9 +278,8 @@ footer{
 
         .card img{
             height: 8vw;
-            overflow:auto;
-            object-fit:scale-down;
-            justify-content: flex-start;
+            overflow:visible;
+            object-fit:cover;
         }
 
         .card p{
