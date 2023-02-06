@@ -56,6 +56,7 @@ nav{
     position: fixed;
     right: 15%;
     top: 20em;
+    font-weight: 500;
 }
 
 nav ul li {
@@ -283,6 +284,7 @@ footer{
             height: 8vw;
             overflow:hidden;
             object-fit:contain;
+            margin: 1px;
         }
 
         .card p{
