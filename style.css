@@ -133,7 +133,7 @@ section li a{
     border-width: 1px;
     border-radius: 2vw;
     margin: 1vw;
-    min-width: 30vw;
+    /* min-width: 30vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,7 +282,6 @@ footer{
 
         .card{
             margin: 3vw;
-            max-width: 30vw;
             display: flex;
             flex-direction: column;
         }
