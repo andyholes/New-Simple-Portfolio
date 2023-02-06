@@ -221,13 +221,6 @@ footer{
             text-align: center;
         }
 
-        #contact{
-            padding-top: 30vh;
-            justify-content: flex-start;
-            align-items: left;
-            text-align: left;
-        }
-
         .picture{
             height: 50vw;
         }
@@ -278,6 +271,8 @@ footer{
         .card{
             margin: 3vw;
             min-width: 30vw;
+            display: flex;
+            flex-direction: column;
         }
     
 
@@ -285,6 +280,7 @@ footer{
             height: 8vw;
             overflow:auto;
             object-fit:scale-down;
+            justify-content: flex-start;
         }
 
         .card p{
