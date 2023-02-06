@@ -229,7 +229,6 @@ footer{
         }
 
         #home{
-            padding-top: 20vh;
             justify-content: flex-start;
             align-items: center;
             text-align: center;
@@ -242,7 +241,7 @@ footer{
         #projects 
 
         .picture{
-            height: 50vw;
+            height: 60vw;
         }
 
         nav{
@@ -296,7 +295,7 @@ footer{
     
 
         .card img{
-            width: 60%;
+            height: 3em;
             overflow:hidden;
             object-fit:contain;
             justify-content: baseline;
