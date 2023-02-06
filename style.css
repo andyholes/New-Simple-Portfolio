@@ -221,6 +221,13 @@ footer{
             text-align: center;
         }
 
+        #contact{
+            padding-top: 30vh;
+            justify-content: flex-start;
+            align-items: left;
+            text-align: left;
+        }
+
         .picture{
             height: 50vw;
         }
