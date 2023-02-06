@@ -280,8 +280,8 @@ footer{
 
         .card img{
             height: 8vw;
-            overflow:visible;
-            object-fit:cover;
+            overflow:hidden;
+            object-fit:contain;
         }
 
         .card p{
