@@ -122,7 +122,7 @@ section li a{
     border-style: solid;
     border-width: 1px;
     border-radius: 2vw;
-    margin: 1em;
+    margin: 1vw;
     min-width: 30vw;
     display: flex;
     flex-direction: column;
@@ -262,9 +262,9 @@ footer{
         }
 
         .card img{
-
-            overflow: hidden;
-            object-fit:contain;
+            height: 8vw;
+            overflow:auto;
+            object-fit:scale-down;
         }
 
         .card p{
