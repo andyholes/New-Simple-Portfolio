@@ -292,7 +292,7 @@ footer{
             margin: 3vw;
             display: flex;
             flex-direction: column;
-            align-items:flex-start;
+            justify-content: left;
             width: 80%;
         }
     
@@ -301,6 +301,7 @@ footer{
             height: 10vw;
             overflow:hidden;
             object-fit:contain;
+            justify-content: left;
         }
 
         .card p{
