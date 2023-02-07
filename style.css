@@ -152,6 +152,8 @@ section li a{
 
 footer{
     text-align: center;
+    margin: 1em;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1300px) {
@@ -297,9 +299,9 @@ footer{
     
 
         .card img{
-            height: 3em;
+            height: 2em;
             overflow:hidden;
-            object-fit:contain;
+            object-fit:conta;
         }
 
         .card p{
