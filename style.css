@@ -290,7 +290,7 @@ footer{
 
         .card{
             margin: 3vw;
-            width: 80%;
+            width: 65vw;
             display: flex;
             flex-direction: column;
             justify-content: baseline;
@@ -300,7 +300,7 @@ footer{
         .card img{
             height: 10vw;
             overflow:hidden;
-            object-fit:scale-down;
+            object-fit:cover;
         }
 
         .card p{
