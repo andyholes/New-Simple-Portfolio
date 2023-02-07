@@ -7,6 +7,7 @@ html{
     scroll-behavior: smooth;
     scrollbar-width: none;
     animation: fadeInAnimation ease 1s;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -213,6 +214,7 @@ footer{
     
         body{
             width: 100vw;
+            max-width: 100%;
         }
 
         nav{
@@ -296,7 +298,7 @@ footer{
     
 
         .card img{
-            width: max-content;
+            height: 10vw;
             overflow:hidden;
             object-fit:contain;
         }
