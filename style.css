@@ -298,7 +298,7 @@ footer{
     
 
         .card img{
-            height: 10vw;
+            height: fit-content;
             overflow:hidden;
             object-fit:cover;
         }
