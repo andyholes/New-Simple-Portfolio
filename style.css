@@ -235,7 +235,7 @@ footer{
         }
 
         #contact{
-            height: 60vh;
+            margin-bottom: 6em;
         }
 
         #projects 
@@ -291,6 +291,7 @@ footer{
             margin: 3vw;
             display: flex;
             flex-direction: column;
+            width: 60vw;
         }
     
 
