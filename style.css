@@ -211,12 +211,16 @@ footer{
 
     @media screen and (max-width: 950px) {
     
+        body{
+            width: 100vw;
+        }
+
         nav{
             font-size: 0;
         }
 
         .content{
-            margin-left: 8%;
+            margin-left: 5%;
             margin-right: 10%;
         }
 
