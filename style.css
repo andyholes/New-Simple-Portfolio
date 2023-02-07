@@ -214,7 +214,7 @@ footer{
         }
 
         .content{
-            margin-left: 5%;
+            margin-left: 8%;
             margin-right: 10%;
         }
 
@@ -300,7 +300,6 @@ footer{
             height: 3em;
             overflow:hidden;
             object-fit:contain;
-            justify-content: baseline;
         }
 
         .card p{
