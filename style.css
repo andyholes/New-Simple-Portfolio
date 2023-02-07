@@ -135,6 +135,7 @@ section li a{
     justify-content: center;
     padding: 1vw 2vw 1vw 4vw;
     box-shadow: 10px 10px;
+    background-color: white;
     
 }
 
@@ -219,6 +220,7 @@ footer{
 
         section{
             height: 100%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content:start;
@@ -237,8 +239,6 @@ footer{
         #contact{
             margin-bottom: 6em;
         }
-
-        #projects 
 
         .picture{
             height: 60vw;
@@ -291,7 +291,8 @@ footer{
             margin: 3vw;
             display: flex;
             flex-direction: column;
-            width: 60vw;
+            align-items:flex-start;
+            width: 80%;
         }
     
 
@@ -303,6 +304,6 @@ footer{
         }
 
         .card p{
-            font-size: 0.7em;
+            font-size: 0.8em;
         }
 }
