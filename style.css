@@ -92,6 +92,11 @@ h5{
     margin-bottom: 0.2em;
 }
 
+h6{
+    font-size: 1.3em;
+    margin-bottom: 0.2em;
+}
+
 p{
     font-size: 1.5em;
     word-break:normal;
@@ -140,7 +145,7 @@ section li a{
     
 }
 
-.card img{
+.card .wide{
     height: 4vw;
     width: fit-content;
     overflow: hidden;
@@ -155,6 +160,19 @@ footer{
     text-align: center;
     margin: 1em;
     font-weight: 600;
+}
+
+.exp{
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1em;
+}
+
+.exp-icon{
+    height:6em;
+    margin: 0 0.75em;
 }
 
 @media screen and (max-width: 1300px) {
@@ -186,6 +204,10 @@ footer{
     
     h5{
         font-size: 1.5em;
+    }
+
+    h6{
+        font-size: 1.2em;
     }
     
     p{
@@ -274,6 +296,10 @@ footer{
         h5{
             font-size: 1.2em;
         }
+
+        h6{
+            font-size: .9em;
+        }
         
         p{
             font-size: 1em;
@@ -297,7 +323,7 @@ footer{
         }
     
 
-        .card img{
+        .card .wide{
             width: auto;
             height: auto;
             overflow:hidden;
